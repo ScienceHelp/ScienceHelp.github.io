@@ -9,7 +9,18 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 3vw;
+    text-align: center;
 }
-.container_main{
-    display: flex;
+.page_desc{
+    font-size: 3vw;
+    text-align: center;
+}
+.btn{
+    width: 30vw;
+    height: 5vw;
+    background-color: blue;
+    font-size: 2vw;
+    color: white;
+    border-radius: 20px;
+    
 }
