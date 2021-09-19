@@ -21,11 +21,12 @@
     background-color: blue;
     font-size: 2vw;
     color: white;
-    border-radius: 20px;
+    border-radius: 1vw;
 }
 .btn_img{
     width: 4.7vw;
     height: 4.7vw;
+    border-radius: 1vw;
 }
 .center{
     display: flex;
