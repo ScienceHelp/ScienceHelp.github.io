@@ -34,15 +34,18 @@
     align-items: center;
     flex-direction: column;
 }
-.animated_btn{
-    width: 5vw;
-    animation-name: increase_width;
-    animation-duration: 3s;
-}
 .p_btn{
     font-size: 2vw;
 }
-@keyframes increase_width{
-    0% {width: 6vw;}
-    100% {width: 30vw;}
+::-webkit-scrollbar-thumb{
+    background-color: yellow;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: blue;
+}
+::-webkit-scrollbar{
+    width: 9px;
+    border-radius: 30px;
+    background-color: yellow;
 }
