@@ -10,5 +10,5 @@ Anyone is Welcome to Contribute to this project! Please read the following rules
 7. The colour scheme of the websites shall not be changed until further notice.
 8. Any new features wished to be added must be detailed in the issues tab and shall not be worked on until approved.
 9. Please go through the comments of each file in each branch so that you know what is bieng worked on and not re-suggest the feature.
-10. No new files will be created withoout permission; the existing files shall not be deleted.
+10. No new files will be created without permission; the existing files shall not be deleted.
 11. Any changes should be accompanied by a small brief, detailed summary not necessary
