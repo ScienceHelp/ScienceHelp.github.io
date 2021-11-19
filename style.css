@@ -1,3 +1,4 @@
+/* #region basic */
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +16,14 @@
     font-size: 3vw;
     text-align: center;
 }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* #endregion */
+/* #region Btn_styling */
 .btn{
     width: 30vw;
     height: 5vw;
@@ -28,15 +37,11 @@
     height: 4.7vw;
     border-radius: 1vw;
 }
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 .p_btn{
     font-size: 2vw;
 }
+/* #endregion */
+/* #region scrollbar_styling */
 ::-webkit-scrollbar-thumb{
     background-color: yellow;
     border-radius: 30px;
@@ -49,3 +54,4 @@
     border-radius: 30px;
     background-color: yellow;
 }
+/* #endregion */
