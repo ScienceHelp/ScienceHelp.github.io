@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: yellow;
+    background-color: #2267B5;
 }
 .header{
     font-size: 8vw;
@@ -11,10 +11,12 @@
     margin-right: auto;
     padding-top: 3vw;
     text-align: center;
+    color: #091D33;
 }
 .page_desc{
     font-size: 3vw;
     text-align: center;
+    color: #091D33;
 }
 .center{
     display: flex;
@@ -23,13 +25,13 @@
     flex-direction: column;
 }
 /* #endregion */
-/* #region Btn_styling */
+/* #region btn_styling */
 .btn{
     width: 30vw;
     height: 5vw;
-    background-color: #0000ff;
+    background-color: #D11A45;
     font-size: 2vw;
-    color: white;
+    color: #F6F0CC;
     border-radius: 1vw;
 }
 .btn_img{
@@ -53,5 +55,10 @@
     width: 9px;
     border-radius: 30px;
     background-color: yellow;
+}
+/* #endregion */
+/* #region navbar_styling */
+nav{
+    background-color: ;
 }
 /* #endregion */
