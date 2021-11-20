@@ -1,8 +1,9 @@
+/* #region basic */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: yellow;
+    background-color: #99DDCC;
 }
 .header{
     font-size: 8vw;
@@ -10,23 +11,12 @@
     margin-right: auto;
     padding-top: 3vw;
     text-align: center;
+    color: #000D6B;
 }
 .page_desc{
     font-size: 3vw;
     text-align: center;
-}
-.btn{
-    width: 30vw;
-    height: 5vw;
-    background-color: blue;
-    font-size: 2vw;
-    color: white;
-    border-radius: 1vw;
-}
-.btn_img{
-    width: 4.7vw;
-    height: 4.7vw;
-    border-radius: 1vw;
+    color: #000D6B;
 }
 .center{
     display: flex;
@@ -34,3 +24,88 @@
     align-items: center;
     flex-direction: column;
 }
+/* #endregion */
+/* #region btn_styling */
+.btn{
+    width: 30vw;
+    height: 5vw;
+    background-color: #FF5DA2;
+    font-size: 2vw;
+    color: #000D6B;
+    border-radius: 1vw;
+    border: none;
+}
+.btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: box-shadow 0.3s;
+}
+.btn_img{
+    width: auto;
+    height: 5vw;
+    border-radius: 1vw;
+}
+.p_btn{
+    font-size: 2vw;
+}
+/* #endregion */
+/* #region scrollbar_styling */
+::-webkit-scrollbar-thumb{
+    background-color: #99DDCC;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #9C19E0;
+}
+::-webkit-scrollbar{
+    width: 9px;
+    border-radius: 30px;
+    background-color: #99DDCC;
+}
+/* #endregion */
+/* #region navbar_styling */
+nav{
+    background-color: #99DDCC;
+    overflow: hidden;
+}
+nav a{
+    float: left;
+    display: block;
+    color: #9C19E0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 8px;
+}
+nav a:hover{
+    background-color: #9C19E0;
+    color: #99DDCC;
+}
+nav .icon{
+    display: none;
+}
+nav .icon:hover{
+    background-color: #99DDCC;
+    color: #9C19E0;
+}
+@media screen and (max-width: 600px) {
+    nav a:not(:first-child) {display: none;}
+    nav a.icon {
+    float: right;
+    display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    nav.responsive {position: relative;}
+    nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+}
+/* #endregion */
