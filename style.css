@@ -66,6 +66,7 @@
 nav{
     background-color: #99DDCC;
     overflow: hidden;
+    border: 1px solid #9C19E0;
 }
 nav a{
     float: left;
